@@ -1,0 +1,7 @@
+import math 
+import cmath
+a=int(input())
+b=int(input())
+c=(a/2)+(b/2)
+v=math.degrees(((math.atan(a/b))))
+print(str(round(v))+'°')
